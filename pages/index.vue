@@ -11,7 +11,7 @@
         <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(team1.jpg)">
           <div class="rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-2xl text-white text-3xl md:text-4xl font-semibold leading-9 md:leading-10 keep-all"> 코딩 자체를 <br/> 처음 접해보신다면
-            <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">일반 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal"> ~ 03.05</span> </div>
+            <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">일반 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 3월 4일까지</span> </div>
           </div>
         </div>
         <div class="rounded-lg h-80 md:h-96 section bg-img" style="background-image: url(team3.jpeg)">
