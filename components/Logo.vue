@@ -1,5 +1,5 @@
 <template>
-<svg class="w-auto md:block h-9" viewBox="0 0 11000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<svg class="w-auto md:block h-8 md:h-9" viewBox="0 0 11000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(5.93742,0,0,5.9509,-381.588,-324.174)">
         <g transform="matrix(1.13621,0,0,1.11659,-24.0699,-14.3899)">
             <path d="M347.911,141.471C347.911,115.556 327.188,94.516 301.663,94.516L162.917,94.516C137.392,94.516 116.669,115.556 116.669,141.471L116.669,282.867C116.669,308.782 137.392,329.822 162.917,329.822L301.663,329.822C327.188,329.822 347.911,308.782 347.911,282.867L347.911,141.471Z" style="fill:rgb(224,224,223);"/>
