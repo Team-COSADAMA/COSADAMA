@@ -9,10 +9,10 @@
             </div>
 
             <ul class="flex flex-col md:flex-row text-sm space-y-2 md:space-y-0">
-                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><nuxt-link to="/" class="hover:underline">Curriculum</nuxt-link></li>
-                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><a target="blank" href="#" class="hover:underline">Blog</a></li>
-                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><a target="blank" href="#" class="hover:underline">GitHub</a></li>
-                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><a href="mailto:cosadamasocio@gmail.com" class="hover:underline">Email</a></li>
+                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><a href="https://curriculum.cosadama.com/" target="blank" class="hover:underline">Curriculum</a></li>
+                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><a href="https://www.blog.cosadama.com/" target="blank" class="hover:underline">Blog</a></li>
+                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><a target="blank" href="https://github.com/Team-COSADAMA" class="hover:underline">GitHub</a></li>
+                <li class="text-gray-500 mr-0 md:mr-3 flex justify-center"><a href="mailto:mail@cosadama.com" class="hover:underline">Email</a></li>
             </ul>
 
             <div class="hidden md:flex justify-center items-center">
