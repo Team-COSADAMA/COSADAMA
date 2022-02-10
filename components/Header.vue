@@ -49,7 +49,7 @@
                 </div>
             </transition>
 
-            <aside class="p-5 transform top-0 left-0 w-64 bg-zinc-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
+            <aside class="p-5 transform top-0 left-0 w-64 bg-black fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
                 
                 <div class="close">
                 <button class="absolute top-0 right-0 mt-4 mr-4" @click=" isOpen = false">
@@ -57,16 +57,16 @@
                 </button>
                 </div>
 
-                <ul class="divide-y font-light mt-10">
-                <li><nuxt-link :to="{path: '/about'}" replace @click="isOpen = false" class="text-slate-300 my-4 inline-block">About</nuxt-link></li>
-                <li><nuxt-link :to="{path: '/recruit'}" replace @click="isOpen = false" class="text-slate-300 my-4 inline-block">Recruit</nuxt-link></li>
-                <li><a href="https://curriculum.cosadama.com" @click="isOpen = false" class="text-slate-300 my-4 inline-block">Curriculum</a></li>
-                <li><a href="https://www.blog.cosadama.com" @click="isOpen = false" class="text-slate-300 my-4 inline-block">Blog</a></li>
-                <li><a href="https://github.com/Team-COSADAMA" @click="isOpen = false" class="text-slate-300 my-4 inline-block">GitHub</a></li>
+                <ul class="mt-10">
+                <li><nuxt-link :to="{path: '/about'}" replace @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">About</nuxt-link></li>
+                <li><nuxt-link :to="{path: '/recruit'}" replace @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">Recruit</nuxt-link></li>
+                <li><a href="https://curriculum.cosadama.com" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">Curriculum</a></li>
+                <li><a href="https://www.blog.cosadama.com" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">Blog</a></li>
+                <li><a href="https://github.com/Team-COSADAMA" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">GitHub</a></li>
                 </ul>
 
-                <div @click="isOpen = false" class="flex w-full pt-8 pb-8 items-center justify-center">
-                    <Logo class="h-8" />
+                <div @click="isOpen = false" class="flex w-full pt-6 pb-8 items-center justify-center">
+                    <LogoAside class="h-7" />
                 </div>
 
             </aside>
