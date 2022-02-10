@@ -1,6 +1,5 @@
 <template>
   <div class="rel">
-    <!-- <Warning /> -->
     <Header class="fix" />
     <Nuxt />
     <Footer />

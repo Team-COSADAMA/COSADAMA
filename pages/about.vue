@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-black">
-        <div class="p-96 text-white text-xl font-semibold">about page</div>
+    <div class="bg-black w-full">
+        <div class="py-96 text-white text-3xl font-semibold text-center">아직 준비중인 공간이에요.</div>
     </div>
 </template>
 

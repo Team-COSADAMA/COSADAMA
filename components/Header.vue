@@ -6,12 +6,12 @@
             
             <div>
                 <ul class="flex space-x-4 items-center">
-                    <!-- <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
+                    <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/about'}" replace>About</nuxt-link>
                     </li>
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/recruit'}" replace>Recruit</nuxt-link>
-                    </li> -->
+                    </li>
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
                         <a href="https://curriculum.cosadama.com/" target="blank">Curriculum</a>
                     </li>
@@ -21,16 +21,16 @@
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
                         <a href="https://github.com/Team-COSADAMA" target="blank">GitHub</a>
                     </li>
-                    <li class="group pl-3 pr-3 block md:hidden">
+                    <!-- <li class="group pl-3 pr-3 block md:hidden">
                     <a href="https://github.com/Team-COSADAMA" target="blank" class="">
                         <GithubLogo class="drop-shadow" />
                     </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
 
 
-            <!-- <div class="md:hidden flex content-center">
+            <div class="md:hidden flex content-center">
                 <button @click="drawer">
                 <Menu class="mr-0.5"/>
                 </button>
@@ -49,7 +49,7 @@
                 </div>
             </transition>
 
-            <aside class="p-5 transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
+            <aside class="p-5 transform top-0 left-0 w-64 bg-zinc-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
                 
                 <div class="close">
                 <button class="absolute top-0 right-0 mt-4 mr-4" @click=" isOpen = false">
@@ -57,30 +57,19 @@
                 </button>
                 </div>
 
-                <div @click="isOpen = false" class="flex w-full pt-12 pb-8 items-center justify-center border-b">
-                    <HeaderLogo />
-                </div>
-
-                <ul class="divide-y font-light">
-                <li><nuxt-link :to="{path: '/about'}" replace @click="isOpen = false" class="text-gray-500 my-4 inline-block poppins">About</nuxt-link></li>
-                <li><nuxt-link :to="{path: '/all-articles'}" replace @click="isOpen = false" class="text-gray-500 my-4 inline-block poppins">Articles</nuxt-link></li>
-                <li><nuxt-link :to="{path: '/categories'}" replace @click="isOpen = false" class="text-gray-500 my-4 inline-block poppins">Categories</nuxt-link></li>
-                <li><nuxt-link :to="{path: '/members'}" replace @click="isOpen = false" class="text-gray-500 my-4 inline-block poppins">Members</nuxt-link></li>
-                <li><nuxt-link :to="{path: '/projects'}" @click="isOpen = false" class="text-gray-500 my-4 inline-block poppins">Projects</nuxt-link></li>
+                <ul class="divide-y font-light mt-10">
+                <li><nuxt-link :to="{path: '/about'}" replace @click="isOpen = false" class="text-slate-300 my-4 inline-block">About</nuxt-link></li>
+                <li><nuxt-link :to="{path: '/recruit'}" replace @click="isOpen = false" class="text-slate-300 my-4 inline-block">Recruit</nuxt-link></li>
+                <li><a href="https://curriculum.cosadama.com" @click="isOpen = false" class="text-slate-300 my-4 inline-block">Curriculum</a></li>
+                <li><a href="https://www.blog.cosadama.com" @click="isOpen = false" class="text-slate-300 my-4 inline-block">Blog</a></li>
+                <li><a href="https://github.com/Team-COSADAMA" @click="isOpen = false" class="text-slate-300 my-4 inline-block">GitHub</a></li>
                 </ul>
 
-                <div class="flex items-center justify-center">
-                <div class="social flex space-x-6 mt-6">
-                    <a href="https://github.com/GDSC-CAU" target="blank">
-                        <GithubLogo  class="w-6 h-6"/>
-                    </a>
-                    <a href="https://gdsc-cau.notion.site/GDSC-CAU-Member-Space-a8f22210d95a4e439dfae3a45b04ceb2" target="blank">
-                        <NotionLogo class="w-6 h-6"/>
-                    </a>
-                </div>
+                <div @click="isOpen = false" class="flex w-full pt-8 pb-8 items-center justify-center">
+                    <Logo class="h-8" />
                 </div>
 
-            </aside> -->
+            </aside>
 
 
         </div>
