@@ -5,7 +5,7 @@
     </div>
 
     <div class="max-w-7xl mx-auto pt-8 md:pt-16 pb-7 md:pb-12 px-6 md:px-10">
-        <div class="text-white text-3xl md:text-4xl font-semibold">{{recruit.title}}</div>
+        <div class="text-white text-3xl md:text-4xl font-semibold keep-all">{{recruit.title}}</div>
     </div>
 
     <div class="block md:hidden text-white px-6 pb-7">

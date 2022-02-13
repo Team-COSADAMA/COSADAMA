@@ -18,7 +18,7 @@
                     <div class="block md:flex items-center md:justify-between px-4 md:px-6">
                         <div class="text-white text-lg md:text-xl font-medium w-full md:w-3/6">{{recruit.title}} <span class="text-slate-400 pl-2 text-base hidden md:inline">{{recruit.period}}</span></div>
                         <div class="text-slate-400 text-base w-2/6 text-left hidden md:block"> {{recruit.tag[0]}} · {{recruit.tag[1]}} · {{recruit.tag[2]}}</div>
-                        <div class="text-slate-400 text-sm md:text-base w-auto md:w-1/6 text-left md:text-right"> {{recruit.status}} <span class="text-slate-400 text-sm inline md:hidden">{{recruit.status}}</span></div>
+                        <div class="text-slate-400 text-sm md:text-base w-auto md:w-1/6 text-left md:text-right">  <span class="text-slate-400 text-sm inline md:hidden">{{recruit.period}} · </span> {{recruit.status}}</div>
                     </div>
                 </nuxt-link>
             </div>
