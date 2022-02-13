@@ -100,16 +100,16 @@
         /* background-attachment: fixed; */
         background-size:  cover;
         background-color: #000000;
- }
+}
 .section {
-  position: relative;
+    position: relative;
 }
 .inner {
-  box-sizing: border-box;
-  position: relative;
+    box-sizing: border-box;
+    position: relative;
 }
 .keep-all {
-  word-break: keep-all;
+    word-break: keep-all;
 }
 .lead-box {
     border-radius: 70%;

@@ -129,14 +129,14 @@
             <div class="text-white font-medium text-lg">그동안의 성과</div>
             <div class="w-full grid grid-cols-1 space-y-4 mt-4 text-sm md:text-base pb-8">
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp 정부혁신제안 끝장개발대회 커뮤니티상 수상!</div>
+                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp 산림복지 데이터 시각화 공모전 우수상 수상!</div>
+                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp DACON 국회 입법활동 빅데이터 경진대회 입상!</div>
+                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp COMPAS 광양시 분석 경진대회 입상!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp NAVER CONNECT 재단 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp Uptage AI 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp SBS 마부작침 데이터 저널리스트 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp YTN 데이터 저널리스트 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp 정부 공공 빅데이터 인턴십 합격! (3인)</div>
-                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp 산림복지 데이터 시각화 공모전 우수상 수상!</div>
-                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp DACON 국회 입법활동 빅데이터 경진대회 입상!</div>
-                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp COMPAS 광양시 분석 경진대회 입상!</div>
             </div>
 
             <div class="text-white font-medium text-lg pb-2">문의</div>
