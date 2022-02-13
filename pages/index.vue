@@ -8,17 +8,17 @@
 
       <div class="text-3xl md:text-4xl text-white mb-5 md:mb-7 font-medium">Now Recruiting</div>
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 mb-12 md:mb-24">
-        <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(team1.jpg)">
-          <div class="rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
+        <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(team3.jpeg)">
+          <nuxt-link :to="{path: '/recruit/member-2022-01'}" replace class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-2xl text-white text-3xl md:text-4xl font-semibold leading-9 md:leading-10 keep-all"> 코딩 자체를 <br/> 처음 접해보신다면
-            <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">일반 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 2월 27일부터</span> </div>
-          </div>
+            <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">일반 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 3월 4일까지</span> </div>
+          </nuxt-link>
         </div>
-        <div class="rounded-lg h-80 md:h-96 section bg-img" style="background-image: url(team3.jpeg)">
-          <div class="rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
+        <div class="rounded-lg h-80 md:h-96 section bg-img" style="background-image: url(team4.jpg)">
+          <nuxt-link :to="{path: '/recruit/curriculum-member'}" replace class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white text-3xl md:text-4xl font-semibold keep-all"> 파이썬을 제외한 <br/> 언어에 능숙하시다면 
-            <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">커리큘럼 개발 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 상시모집</span> </div>
-          </div>
+            <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">커리큘럼 개발 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 추후 모집 예정</span> </div>
+          </nuxt-link>
         </div>
         <div class="bg-black rounded-lg block md:hidden border border-white drop-shadow-md">
           <nuxt-link class="flex items-center h-12" :to="{path: '/recruit'}" replace>

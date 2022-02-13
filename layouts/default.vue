@@ -2,7 +2,7 @@
   <div class="rel">
     <Header class="fix" />
     <Nuxt />
-    <Footer />
+    <FooterFull />
   </div>
 </template>
 
