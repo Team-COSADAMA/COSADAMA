@@ -181,7 +181,7 @@ export default {
 
     head() {
         return {
-            title: this.article.title,
+            title: this.recruit.title,
             htmlAttrs: {
             lang: 'ko'
             },

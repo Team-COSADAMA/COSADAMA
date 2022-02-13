@@ -20,7 +20,7 @@
             <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">커리큘럼 개발 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 추후 모집 예정</span> </div>
           </nuxt-link>
         </div>
-        <div class="bg-black rounded-lg block md:hidden border border-white drop-shadow-md">
+        <div class="bg-black rounded-lg block md:hidden border border-white drop-shadow-md hover:bg-zinc-800">
           <nuxt-link class="flex items-center h-12" :to="{path: '/recruit'}" replace>
             <div class="text-slate-50 text-base font-medium mx-auto">더 많은 공고 보기</div>
           </nuxt-link>

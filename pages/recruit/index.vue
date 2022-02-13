@@ -39,7 +39,7 @@
     },
     head() {
         return {
-            title: this.article.title,
+            title: '코사다마 영입',
             htmlAttrs: {
             lang: 'ko'
             },
