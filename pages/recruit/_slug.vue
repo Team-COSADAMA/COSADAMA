@@ -178,6 +178,60 @@ export default {
 
         return { recruit }
     },
+
+    head() {
+        return {
+            title: this.article.title,
+            htmlAttrs: {
+            lang: 'ko'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            {
+                hid: 't-type',
+                name: 'twitter:card',
+                content: 'summary_large_image'
+            },
+            {
+            hid: 'og-type',
+            property: 'og:type',
+            content: 'website'
+            },
+            {
+            hid: 'og:title',
+            property: 'og:title',
+            content: this.recruit.title
+            },
+            {
+            hid: 'og:description',
+            property: 'og:description',
+            content: this.recruit.status
+            },
+            {
+            hid: 'og:image',
+            property: 'og:image',
+            // content: this.article.img
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/COSADAMA/main/static/${this.recruit.img}`
+            },
+            {
+            hid: 'og:image:secure_url',
+            property: 'og:image:secure_url',
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/COSADAMA/main/static/${this.recruit.img}`
+            },
+            {
+            hid: 'og:image:alt',
+            property: 'og:image:alt',
+            content: 'article image'
+            },
+            {
+            hid: 'og:url',
+            name: 'og:url',
+            content: `https://cosadama.com/recuit/${this.$route.params.slug}`
+            },
+            ],
+        }
+    },
 }
 </script>
 

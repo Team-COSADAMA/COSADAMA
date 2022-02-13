@@ -37,7 +37,60 @@
         .fetch();
         return { recruits }
     },
-    }
+    head() {
+        return {
+            title: this.article.title,
+            htmlAttrs: {
+            lang: 'ko'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            {
+                hid: 't-type',
+                name: 'twitter:card',
+                content: 'summary_large_image'
+            },
+            {
+            hid: 'og-type',
+            property: 'og:type',
+            content: 'website'
+            },
+            {
+            hid: 'og:title',
+            property: 'og:title',
+            content: '코사다마 영입'
+            },
+            {
+            hid: 'og:description',
+            property: 'og:description',
+            content: '중앙대학교 비전공자 코딩 커뮤니티 코사다마의 영입 페이지입니다.'
+            },
+            {
+            hid: 'og:image',
+            property: 'og:image',
+            // content: this.article.img
+            content: 'https://github.com/Team-COSADAMA/COSADAMA/blob/main/static/og_image.png'
+            },
+            {
+            hid: 'og:image:secure_url',
+            property: 'og:image:secure_url',
+            content: 'https://github.com/Team-COSADAMA/COSADAMA/blob/main/static/og_image.png'
+            },
+            {
+            hid: 'og:image:alt',
+            property: 'og:image:alt',
+            content: 'article image'
+            },
+            {
+            hid: 'og:url',
+            name: 'og:url',
+            content: 'https://cosadama.com/recuit'
+            },
+            ],
+        }
+    },
+}
 </script>
 
 <style scoped>
