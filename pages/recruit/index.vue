@@ -70,12 +70,12 @@
             hid: 'og:image',
             property: 'og:image',
             // content: this.article.img
-            content: 'https://github.com/Team-COSADAMA/COSADAMA/blob/main/static/og_image.png'
+            content: 'https://raw.githubusercontent.com/Team-COSADAMA/COSADAMA/main/static/og_image.png'
             },
             {
             hid: 'og:image:secure_url',
             property: 'og:image:secure_url',
-            content: 'https://github.com/Team-COSADAMA/COSADAMA/blob/main/static/og_image.png'
+            content: 'https://raw.githubusercontent.com/Team-COSADAMA/COSADAMA/main/static/og_image.png'
             },
             {
             hid: 'og:image:alt',
