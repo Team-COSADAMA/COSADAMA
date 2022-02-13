@@ -133,7 +133,7 @@
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp DACON 국회 입법활동 빅데이터 경진대회 입상!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🏆 &nbsp COMPAS 광양시 분석 경진대회 입상!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp NAVER CONNECT 재단 인턴 합격!</div>
-                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp Uptage AI 인턴 합격!</div>
+                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp Upstage AI 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp SBS 마부작침 데이터 저널리스트 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp YTN 데이터 저널리스트 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp 정부 공공 빅데이터 인턴십 합격! (3인)</div>
