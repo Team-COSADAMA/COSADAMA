@@ -12,7 +12,7 @@
 
                 <ul class="w-25 md:w-36 md:ml-0 md:m-0">
                     <li class="mb-3 font-medium text-gray-300">관련 사이트</li>
-                    <li class="mb-1.5 font-normal text-gray-500 hover:underline"><a href="https://cosadama.com">홈페이지</a></li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline"><a href="https://curriculum.cosadama.com">커리큘럼</a></li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline"><a href="https://www.blog.cosadama.com">블로그</a></li>
                     <li class="mb-1.5 font-normal text-gray-500 hover:underline"><a href="https://github.com/Team-COSADAMA">깃헙</a></li>
                 </ul>
