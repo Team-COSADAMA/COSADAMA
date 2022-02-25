@@ -39,7 +39,7 @@
     },
     head() {
         return {
-            title: '코사다마 영입',
+            title: '코사다마 영입 | COSADAMA',
             htmlAttrs: {
             lang: 'ko'
             },
@@ -59,7 +59,7 @@
             {
             hid: 'og:title',
             property: 'og:title',
-            content: '코사다마 영입'
+            content: '코사다마 영입 | COSADAMA'
             },
             {
             hid: 'og:description',

@@ -184,7 +184,7 @@ export default {
 
     head() {
         return {
-            title: this.recruit.title,
+            title: `${this.recruit.title} | COSADAMA`,
             htmlAttrs: {
             lang: 'ko'
             },
@@ -204,7 +204,7 @@ export default {
             {
             hid: 'og:title',
             property: 'og:title',
-            content: this.recruit.title
+            content: `${this.recruit.title} | COSADAMA`
             },
             {
             hid: 'og:description',
