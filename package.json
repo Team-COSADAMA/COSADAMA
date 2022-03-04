@@ -10,16 +10,19 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "@tailwindcss/typography": "^0.5.1",
+    "@tailwindcss/typography": "^0.5.2",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
+    "nuxt-content-git": "^2.0.14",
     "pretendard": "^1.2.1",
     "swiper": "^5.4.5",
     "vue-awesome-swiper": "^4.1.1",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.0",
-    "postcss": "^8.3.5"
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
   }
 }
