@@ -150,7 +150,7 @@
             </div>
 
             <div class="bg-transparent block md:inline-block hover:bg-zinc-900 rounded-lg py-4 pl-5 pr-6 transition hover:duration-200">
-                <nuxt-link :to="{path: '/recruit'}" replace class="text-white text-base flex items-center justify-center">
+                <nuxt-link :to="{path: '/recruit'}" class="text-white text-base flex items-center justify-center">
                     <Left class="w-5 h-5" /> <span class="pl-1">모집 공고 리스트로 돌아가기</span>
                 </nuxt-link>
             </div>

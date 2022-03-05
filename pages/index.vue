@@ -9,19 +9,19 @@
       <div class="text-3xl md:text-4xl text-white mb-5 md:mb-7 font-medium">Now Recruiting</div>
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 mb-12 md:mb-24">
         <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(team9.png)">
-          <nuxt-link :to="{path: '/recruit/git-beta-tester'}" replace class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
+          <nuxt-link :to="{path: '/recruit/git-beta-tester'}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-2xl text-white text-3xl md:text-4xl font-semibold leading-9 md:leading-10 keep-all"> 오픈소스 커리큘럼에 <br/> 기여해보고 싶다면
             <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">베타 테스터로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 추후 모집</span> </div>
           </nuxt-link>
         </div>
         <div class="rounded-lg h-80 md:h-96 section bg-img" style="background-image: url(team12.jpg)">
-          <nuxt-link :to="{path: '/recruit/curriculum-member'}" replace class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
+          <nuxt-link :to="{path: '/recruit/curriculum-member'}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white text-3xl md:text-4xl font-semibold keep-all"> 파이썬을 제외한 <br/> 언어에 능숙하시다면 
             <br/> <span class="text-base md:text-lg text-white font-normal group-hover:underline">커리큘럼 개발 멤버로 지원하기</span><span class="text-xs md:text-sm text-slate-300 font-normal pl-0.5"> 추후 모집</span> </div>
           </nuxt-link>
         </div>
         <div class="bg-black rounded-lg block md:hidden border border-white drop-shadow-md hover:bg-zinc-800">
-          <nuxt-link class="flex items-center h-12" :to="{path: '/recruit'}" replace>
+          <nuxt-link class="flex items-center h-12" :to="{path: '/recruit'}">
             <div class="text-slate-50 text-base font-medium mx-auto">더 많은 공고 보기</div>
           </nuxt-link>
         </div>
