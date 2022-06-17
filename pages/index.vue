@@ -95,8 +95,8 @@
   export default {
     name: 'Slider',
     components: { VueSlickCarousel },
-    async asyncData({ $content, params }) {
-        const memberReviews = await $content('memberReviews', params.id)
+    async asyncData({ $content }) {
+        const memberReviews = await $content('memberReviews')
         .sortBy('order')
         .fetch();
         return { memberReviews }

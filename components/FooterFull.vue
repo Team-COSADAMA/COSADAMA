@@ -30,7 +30,7 @@
             </nuxt-link>
 
             <ul class="flex justify-center md:absolute md:bottom-0 md:right-0 md:block mt-10 md:mt-0">
-                <li class="text-xs md:text-sm font-normal text-gray-500">Designed & Developed by 
+                <li class="text-xs md:text-sm font-normal text-gray-500">Built with <a href="https://nuxtjs.org/">⛰</a> by 
                     <a class="underline" href="https://github.com/thepenielcho">Peniel Cho</a></li>
             </ul>
 
