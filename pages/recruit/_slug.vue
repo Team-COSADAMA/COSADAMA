@@ -140,6 +140,8 @@
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp; SBS 마부작침 데이터 저널리스트 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp; YTN 데이터 저널리스트 인턴 합격!</div>
                 <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp; 정부 공공 빅데이터 인턴십 합격! (3인)</div>
+                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp; 카카오 엔터프라이즈 인턴 합격!</div>
+                <div class="rounded-md bg-zinc-900 text-center py-4 text-slate-400">🎉 &nbsp; POSCO 인턴 합격!</div>
             </div>
 
             <div class="text-white font-medium text-lg pb-2">문의</div>
