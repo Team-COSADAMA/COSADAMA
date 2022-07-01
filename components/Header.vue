@@ -5,26 +5,21 @@
             <nuxt-link to='/'> <Logo class="drop-shadow-sm pl-2" /> </nuxt-link>
             
             <div>
-                <ul class="flex space-x-4 items-center">
+                <ul class="flex space-x-3 items-center">
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
-                        <nuxt-link :to="{path: '/about'}" replace>About</nuxt-link>
+                        <nuxt-link :to="{path: '/about'}" replace>A B O U T</nuxt-link>
                     </li>
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
-                        <nuxt-link :to="{path: '/recruit'}" replace>Recruit</nuxt-link>
+                        <nuxt-link :to="{path: '/recruit'}" replace>R E C R U I T</nuxt-link>
                     </li>
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
-                        <a href="https://curriculum.cosadama.com/" target="blank">Curriculum</a>
+                        <a href="https://curriculum.cosadama.com/" target="blank" class="flex items-center"> <span class="mr-1.5">C U R R I C U L U M</span> <External class="w-4" /> </a>
                     </li>
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
-                        <a href="https://www.blog.cosadama.com/" target="blank">Blog</a>
+                        <a href="https://www.blog.cosadama.com/" target="blank" class="flex items-center"> <span class="mr-1.5">B L O G</span> <External class="w-4" /> </a>
                     </li>
-                    <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
-                        <a href="https://github.com/Team-COSADAMA" target="blank">GitHub</a>
-                    </li>
-                    <!-- <li class="group pl-3 pr-3 block md:hidden">
-                    <a href="https://github.com/Team-COSADAMA" target="blank" class="">
-                        <GithubLogo class="drop-shadow" />
-                    </a>
+                    <!-- <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
+                        <a href="https://github.com/Team-COSADAMA" target="blank" class="flex items-center"> <span class="mr-1.5">G I T H U B</span> <External class="w-4" /> </a>
                     </li> -->
                 </ul>
             </div>
@@ -58,11 +53,11 @@
                 </div>
 
                 <ul class="mt-10">
-                <li><nuxt-link :to="{path: '/about'}" replace @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">About</nuxt-link></li>
-                <li><nuxt-link :to="{path: '/recruit'}" replace @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">Recruit</nuxt-link></li>
-                <li><a href="https://curriculum.cosadama.com" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">Curriculum</a></li>
-                <li><a href="https://www.blog.cosadama.com" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">Blog</a></li>
-                <li><a href="https://github.com/Team-COSADAMA" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">GitHub</a></li>
+                <li><nuxt-link :to="{path: '/about'}" replace @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">A B O U T</nuxt-link></li>
+                <li><nuxt-link :to="{path: '/recruit'}" replace @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">R E C R U I T</nuxt-link></li>
+                <li><a href="https://curriculum.cosadama.com" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">C U R R I C U L U M</a></li>
+                <li><a href="https://www.blog.cosadama.com" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">B L O G</a></li>
+                <li><a href="https://github.com/Team-COSADAMA" @click="isOpen = false" class="text-slate-300 my-3 inline-block w-full text-center">G I T H U B</a></li>
                 </ul>
 
                 <div @click="isOpen = false" class="flex w-full pt-6 pb-8 items-center justify-center">
@@ -109,6 +104,6 @@
 
 <style scoped>
 .lgtoxl{
-    font-size: 1.145rem;
+    font-size: 0.9rem;
 }
 </style>

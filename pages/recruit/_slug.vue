@@ -4,11 +4,11 @@
     <div class="bg-img section w-full py-36 sm:py-48 md:py-60 2xl:py-80 recruit-img" :style="{ backgroundImage: `url(/${recruit.img})` }">
     </div>
 
-    <div class="max-w-7xl mx-auto pt-8 md:pt-16 pb-7 md:pb-12 px-6 md:px-10">
+    <div class="max-w-7xl mx-auto pt-8 md:pt-16 pb-7 md:pb-12 px-6 md:px-10 fadeinupcom">
         <div class="text-white text-3xl md:text-4xl font-semibold keep-all">{{recruit.title}}</div>
     </div>
 
-    <div class="block md:hidden text-white px-6 pb-7">
+    <div class="block md:hidden text-white px-6 pb-7 fadeinupcom">
             <ul class="divide-y pb-4">
                 <li class="pb-3 pt-1 text-slate-400 text-base px-1"> <span class="w-1/3 inline-block">활동 형태</span>  <span class="text-white">{{recruit.type}}</span> </li>
                 <li class="py-3 text-slate-400 text-base px-1"> <span class="w-1/3 inline-block">활동 기간</span> <span class="text-white">{{recruit.period}}</span> </li>
@@ -19,7 +19,7 @@
             </a>
     </div>
 
-    <div class="max-w-7xl mx-auto px-6 md:px-10 justify-between flex">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 justify-between flex fadeinupcom">
         <div class="pr-0 md:pr-8 w-full md:w-2/3 pb-16">
             <div class="text-white font-medium text-lg pb-2">코사다마 소개</div>
             <div class="text-slate-400 pb-8">코사다마(COSADAMA)는 2020년 1월 13일부터 시작된 중앙대학교의 비전공자 코딩 커뮤니티입니다. 
