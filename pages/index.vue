@@ -11,7 +11,7 @@
       <div class="text-2xl md:text-3xl pb-5 md:pb-7 text-white font-medium">Now Recruiting</div>
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 mb-12 md:mb-24">
         <div class="rounded-lg h-80 md:h-96 section bg-img group" :style="{ backgroundImage: `url(/${recruits[0].img})` }" >
-          <nuxt-link :to="{path: '/recruit/git-beta-tester'}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
+          <nuxt-link :to="{path: `/recruit/${recruits[0].slug}`}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
               <div class="text-2xl md:text-3xl font-semibold keep-all">{{recruits[0]["promotion"]}}</div>
               <div class="pt-2">
@@ -22,7 +22,7 @@
           </nuxt-link>
         </div>
         <div class="rounded-lg h-80 md:h-96 section bg-img" :style="{ backgroundImage: `url(/${recruits[1].img})` }">
-          <nuxt-link :to="{path: '/recruit/curriculum-member'}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
+          <nuxt-link :to="{path: `/recruit/${recruits[0].slug}`}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
               <div class="text-2xl md:text-3xl font-semibold keep-all">{{recruits[1]["promotion"]}}</div>
               <div class="pt-2">
