@@ -7,7 +7,7 @@
             <div class="pb-3 text-sm md:text-base recruiting-gradient font-medium">R E C R U I T</div>
             <div class="text-white text-3xl md:text-4xl font-semibold">더 많은 사람이 <br/> 더 발전할 수 있도록</div>
             <div class="text-slate-400 pt-3 md:pt-5 text-base md:text-lg">코사다마는 비전공자를 위한 코딩 커뮤니티라는 목표 하에, <br class="hidden md:inline"/> 보다 많은 분들이 코딩을 접하실 수 있도록 노력하고 있습니다.</div>
-            <div class="pt-2 md:pt-5 text-white text-base md:text-lg hover:underline"> <nuxt-link :to="{path: '/about'}">코사다마의 목표 알아보기</nuxt-link> </div>
+            <div class="pt-2 md:pt-5 text-white text-base md:text-lg hover:underline"> <nuxt-link :to="{path: '/'}">코사다마의 목표 알아보기</nuxt-link> </div>
         </div>
 
 <!-- 모집 리스트 -->
@@ -34,7 +34,7 @@
     export default {
     async asyncData({ $content, params }) {
         const recruits = await $content('recruit', params.id)
-        .sortBy('order')
+        .sortBy('order', 'asc')
         .fetch();
         return { recruits }
     },

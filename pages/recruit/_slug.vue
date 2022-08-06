@@ -147,7 +147,7 @@
             <div class="text-white font-medium text-lg pb-2">문의</div>
             <div class="text-slate-400 pb-8">
                 <div class="pb-2">· 이메일 : <a class="underline" href="mailto:mail@cosadama.com">mail@cosadama.com</a></div>
-                <div class="pb-2">· 카카오톡 : <a class="underline" href="https://pf.kakao.com/_MYkvK" target="blank">COSADAMA</a> </div>
+                <!-- <div class="pb-2">· 카카오톡 : <a class="underline" href="https://pf.kakao.com/_MYkvK" target="blank">COSADAMA</a> </div> -->
                 <div class="text-sm text-slate-500"> <a class="underline" href="https://www.instagram.com/cosadama/" target="blank">인스타그램</a>을 팔로우하시면 보다 빠르게 코사다마의 소식을 받아보실 수 있습니다.</div>
             </div>
 

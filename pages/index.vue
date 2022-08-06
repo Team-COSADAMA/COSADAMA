@@ -113,7 +113,7 @@
         .sortBy('order')
         .fetch();
         const recruits = await $content('recruit')
-        .sortBy('order')
+        .sortBy('order', 'asc')
         .limit(2)
         .fetch();
         return { memberReviews, recruits }

@@ -6,9 +6,9 @@
             
             <div>
                 <ul class="flex space-x-3 items-center">
-                    <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
+                    <!-- <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/about'}" replace>A B O U T</nuxt-link>
-                    </li>
+                    </li> -->
                     <li class="py-1.5 px-2.5 rounded-lg hover:bg-zinc-800 hidden md:block text-slate-300 lgtoxl hover:text-white transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/recruit'}" replace>R E C R U I T</nuxt-link>
                     </li>
