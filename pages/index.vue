@@ -22,7 +22,7 @@
           </nuxt-link>
         </div>
         <div class="rounded-lg h-80 md:h-96 section bg-img" :style="{ backgroundImage: `url(/${recruits[1].img})` }">
-          <nuxt-link :to="{path: `/recruit/${recruits[0].slug}`}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
+          <nuxt-link :to="{path: `/recruit/${recruits[1].slug}`}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700 group">
             <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
               <div class="text-2xl md:text-3xl font-semibold keep-all">{{recruits[1]["promotion"]}}</div>
               <div class="pt-2">

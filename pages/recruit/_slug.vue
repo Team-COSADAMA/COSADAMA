@@ -105,6 +105,7 @@
             <div v-if="`${recruit.type}` == '멤버'">
                 <div class="text-white font-medium text-lg pb-2">활동 안내</div>
                 <div class="text-slate-400 pb-8">
+                    <div class="pb-2">· 격주 수요일 20시, 비대면 세미나를 진행합니다.</div>
                     <div class="pb-2">· 공지 및 스터디 안내, 질의 응답은 Slack을 통해 이루어집니다.</div>
                     <div class="pb-2">· 스터디 가이드는 합류 후 제공되는 Notion 페이지에서 확인 가능합니다.</div>
                     <div class="pb-2">· 매주 정해진 분량을 스스로 공부합니다.</div>
