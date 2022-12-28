@@ -79,7 +79,15 @@
                     <li v-if="`${recruit.benefit[2]}` == undefined || `${recruit.benefit[2]}` == null || `${recruit.benefit[2]}` == 'null' || `${recruit.benefit[2]}` == 'undefined'"></li>
                     <li v-else>· {{recruit.benefit[2]}}</li>
                     <li v-if="`${recruit.benefit[3]}` == undefined || `${recruit.benefit[3]}` == null || `${recruit.benefit[3]}` == 'null' || `${recruit.benefit[3]}` == 'undefined'"></li>
-                    <li v-else>· {{recruit.curriculum[3]}}</li>
+                    <li v-else>· {{recruit.benefit[3]}}</li>
+                    <li v-if="`${recruit.benefit[4]}` == undefined || `${recruit.benefit[4]}` == null || `${recruit.benefit[4]}` == 'null' || `${recruit.benefit[4]}` == 'undefined'"></li>
+                    <li v-else>· {{recruit.benefit[4]}}</li>
+                    <li v-if="`${recruit.benefit[5]}` == undefined || `${recruit.benefit[5]}` == null || `${recruit.benefit[5]}` == 'null' || `${recruit.benefit[5]}` == 'undefined'"></li>
+                    <li v-else>· {{recruit.benefit[5]}}</li>
+                    <li v-if="`${recruit.benefit[6]}` == undefined || `${recruit.benefit[6]}` == null || `${recruit.benefit[6]}` == 'null' || `${recruit.benefit[6]}` == 'undefined'"></li>
+                    <li v-else>· {{recruit.benefit[6]}}</li>
+                    <li v-if="`${recruit.benefit[7]}` == undefined || `${recruit.benefit[7]}` == null || `${recruit.benefit[7]}` == 'null' || `${recruit.benefit[7]}` == 'undefined'"></li>
+                    <li v-else>· {{recruit.benefit[7]}}</li>
                 </ul>
             </div>
 
