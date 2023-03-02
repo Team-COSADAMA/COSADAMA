@@ -8,7 +8,7 @@
       <div class="text-slate-300 text-base md:text-xl md:text-2xl mb-20 md:mb-32 drop-shadow">코사다마는 중앙대학교의 <br class="inline md:hidden" /> 비전공자 코딩 커뮤니티입니다.</div>
 
       <div class="pb-2.5 text-sm md:text-base recruiting-gradient font-medium">R E C R U I T</div>
-      <div class="text-2xl md:text-3xl pb-5 md:pb-7 text-white font-medium">Now Recruiting</div>
+      <div class="text-2xl md:text-3xl pb-5 md:pb-7 text-white font-medium">End of Recruiting</div>
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 mb-12 md:mb-24">
         <div class="rounded-lg h-80 md:h-96 section bg-img group" :style="{ backgroundImage: `url(/${recruits[0].img})` }" >
           <nuxt-link :to="{path: `/recruit/${recruits[0].slug}`}" class="block rounded-lg w-full h-full bg-gradient-to-t from-gray-700">
